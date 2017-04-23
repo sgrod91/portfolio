@@ -1,0 +1,176 @@
+@media (min-width:768px) {
+/* centered navigation */
+
+div.navbar.navbar-fixed-top.navbar-inverse {
+  background-color: #02162B;
+  font-family: 'Lucida Grande', sans-serif;
+  letter-spacing: .1em;
+}
+ .nav.navbar-nav {
+     float: left;
+ }
+ .nav.navbar-nav {
+     clear: left;
+     float: left;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     text-align: center;
+ }
+ .nav.navbar-nav > li {
+     position: relative;
+     right: 50%;
+ }
+ .nav.navbar-nav li {
+    text-align: left
+ }
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Lucida Grande';
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lucida Grande';
+
+}
+
+#home {
+background-image: url("images/smokies.png");
+text-align: center;
+color: white;
+background-size: cover;
+height: 100vh;
+background-position: center;
+}
+
+#home h1 {
+  font-family: 'Anton', 'Anton', sans-serif;
+  font-size: 70px;
+  letter-spacing: .4em;
+  text-align: center;
+  padding-top: 220px;
+}
+
+#home h2 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Julius Sans One';
+  padding-top: .5em;
+  border-top: 1px solid white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#header {
+  background: transparent;
+  background-image: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+#hello {
+  text-align: center;
+  background-image: url('images/handmadepaper.png');
+  color: black;
+}
+
+#hello h2 {
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+#hello img {
+  border-radius: 50%;
+}
+
+
+#about {
+text-align: center;
+background-image: url('images/handmadepaper.png');
+color: black;
+font-family: 'Anton', sans-serif;
+font-weight: normal;
+padding: 5%;
+}
+
+#skills {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Anton', 'Lucida Grande', sans-serif;
+  background-color: white;
+  padding: 5%;
+  }
+
+#skills img {
+  padding-bottom: 80px;
+  filter: grayscale(100%);
+}
+
+
+#about h3 {
+  font-family: 'Julius Sans One';
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-align: left;
+
+}
+
+#about p {
+text-align: left;
+font-size: 18px;
+font-weight: lighter;
+}
+
+#connect {
+  text-align: center;
+  background-image: url('images/handmadepaper.png');
+  padding: 25px 0;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+
+  }
+
+.links {
+  text-align: center;
+  display: inline-block;
+  padding: 2%;
+  border-radius: none;
+}
+
+#projects {
+  background-color: #1A5684;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Anton', 'Lucida Grande', sans-serif;
+  color: white;
+  padding: 5%;
+
+}
+
+#more_content {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Anton', 'Lucida Grande', sans-serif;
+  background-color: white;
+  padding: 5%;
+
+}
+
+button {
+  background-color: #02162B;
+  border: .5px solid white;
+
+}
